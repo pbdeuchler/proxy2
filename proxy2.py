@@ -11,9 +11,6 @@ import time
 import json
 import re
 from string import Template
-from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
-from SocketServer import ThreadingMixIn
-from cStringIO import StringIO
 from subprocess import Popen, PIPE
 
 try:
